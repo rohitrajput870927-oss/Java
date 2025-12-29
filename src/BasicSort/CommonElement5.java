@@ -6,6 +6,8 @@ public class CommonElement5 {
         int[] a = {1, 1, 1, 2, 3, 5, 5};
         int[] b = {1, 1, 2, 4, 4, 6, 8};
              //Ohdbbxzbb
+
+        //it is use to create c  arr
         int[] c = new int[Math.min(a.length, b.length)];//returns the smaller length of the two arrays.
 
         int i = 0, j = 0, k = 0;
