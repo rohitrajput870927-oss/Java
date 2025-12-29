@@ -1,0 +1,16 @@
+package Arrays;
+
+public class Wavy20 {
+    static void main() {
+        int[] arr={2,4,7,8,9,10,0};
+        for(int i=0;i<arr.length-1;i+=2){//second last index
+            int temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
+
+        }
+        for(int i=0;i< arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
