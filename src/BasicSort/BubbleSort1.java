@@ -1,7 +1,7 @@
 package BasicSort;
 public class BubbleSort1 {
     static void main() {
-        int[] arr = {5, 4, 3, 2, 1};
+        int[] arr={8,4,1,9,-3,6,5};
 //        for (int i = 0; i < arr.length-1; i++) {
 //            //ye ek round hoga or fir aaise hi ye i < arr.length-1 yaha tak chalega
 //
