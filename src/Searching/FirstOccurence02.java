@@ -6,7 +6,6 @@ public class FirstOccurence02 {
         int n = arr.length;
         int lo = 0, hi = n - 1, indx = -1;
         int target = 5;
-        boolean found = false;
         while (lo <= hi) {
             int mid=(lo+hi)/2;
 
@@ -14,9 +13,7 @@ public class FirstOccurence02 {
             if (arr[mid]==target){
                 indx=mid;
                 hi=mid-1;//go left first occurence chahiye tha na isileye
-                System.out.println("Yes the firt occurence"+arr[mid]);
-                found=true;
-                break;
+
             }
 
             else if (arr[mid]>target) {
@@ -29,10 +26,11 @@ public class FirstOccurence02 {
 
             }
         }
-
-
-        if(!found){
-            System.out.println("Not Avail");
+        if(indx!=-1){
+            System.out.println("Yes it is present:"+" "+indx);
+        }
+        else {
+            System.out.println("no");
         }
 
     }
