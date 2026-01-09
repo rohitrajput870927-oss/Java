@@ -20,7 +20,7 @@ public class SingleInDouble07 {
             }
             int leftCount=f-lo;
             int rightCount=hi-s;
-            if(leftCount%2==0){
+            if(leftCount%2==0){// leftcount  even hua to odd  right me move karege
                 lo=mid+1;
             }
             else if (leftCount%2!=0) {
