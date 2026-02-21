@@ -13,7 +13,7 @@ public class RelationalOperator1 {
         boolean x=true;
         boolean b=false;
         boolean c=(5>2);
-        //boolean me ham sirf true flase or condition hai likha sakte hai
+        //boolean me ham sirf true flase or condition hi likha sakte hai
         System.out.println(c);
 
 

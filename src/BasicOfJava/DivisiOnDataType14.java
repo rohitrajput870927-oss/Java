@@ -5,7 +5,7 @@ public class DivisiOnDataType14 {
         double a=5/2;
         System.out.print(a);
         //int/int->int
-        //if there is only  double then answer is in double
+        //if there is only one double then answer is in double
     }
 
 
