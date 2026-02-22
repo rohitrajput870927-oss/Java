@@ -9,7 +9,9 @@ public class Prectice01 {
         System.out.println(++x);
         System.out.println(x);
         System.out.println(x++);
-        System.out.print(x);
+        System.out.println(x);
+        System.out.println("Well come");
+        System.out.println("Rohit is is good Boy");
 
 
 
