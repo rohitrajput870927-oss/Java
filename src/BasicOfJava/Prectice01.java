@@ -1,19 +1,12 @@
 package BasicOfJava;
+import java.util.Scanner;
+import java.lang.Math;
 public class Prectice01 {
     static void main() {
-        int x=2;
-        System.out.println(x);
-        x+=10;
-        System.out.println(x);
-
-        System.out.println(++x);
-        System.out.println(x);
-        System.out.println(x++);
-        System.out.println(x);
-        System.out.println("Well come");
-        System.out.println("Rohit is is good Boy");
-
-
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the No.");
+        double a=sc.nextDouble();
+        System.out.println(Math.sqrt(a));
 
     }
 }
