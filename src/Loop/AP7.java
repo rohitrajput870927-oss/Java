@@ -11,7 +11,7 @@ public class AP7 {
         System.out.println("Enter the D");
         int d=sc.nextInt();
 
-        for(int i=a;i<=(3*n-1);i=i+3) {//last term tak chalega means ap=a+(n-1)*d then ap=-2(n-1)*3=3n-1 tak chalega ok
+        for(int i=a;i<=(3*n-5);i=i+3) {//last term tak chalega means ap=a+(n-1)*d then ap=-2+(n-1)*3=3n-5 tak chalega ok
             System.out.println(i);
         }
 

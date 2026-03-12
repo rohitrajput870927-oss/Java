@@ -11,7 +11,7 @@ public class NeastedIFelse10 {
         int c=sc.nextInt();
         if(a>b) {
             if (a > c) {
-                System.out.print("a is Ggreater No.");
+                System.out.print("a is Greater No.");
             }
             else {
                 System.out.print("C is greater No.");
