@@ -8,7 +8,7 @@ public class ReturnType6 {
     }
     static void main() {
         rohit();//ye sirf Rohan print karega
-        System.out.println(rohit());//ye value ko bhi print karega
+        System.out.println(rohit());//ye return  value ko bhi print karega
 
     }
 }

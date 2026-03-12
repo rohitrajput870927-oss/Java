@@ -2,6 +2,7 @@ package Method;
 
 public class Function4 {
     static void main() {
+
         rishika();
     }
     static void rishika(){

@@ -20,6 +20,7 @@ public class OutputIntput2 {
         //input
         int[] arr=new int[3];
         int n=arr.length;
+        System.out.println(n);
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }

@@ -15,6 +15,7 @@ public class Function3 {
         vill();
     }
     static void vill(){
+
         System.out.println("Dhanauti");
     }
 
