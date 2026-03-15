@@ -1,21 +1,24 @@
-package Arrays;
+package ArraysPrectice;
+
 import java.util.ArrayList;
 import java.util.Collections;
-public class AddingOne22 {
-    static void main() {
-        ArrayList<Integer> arr=new ArrayList<>();
-        arr.add(8);
+
+public class Prectice31 {
+
+    public static void main(String[] args) {
+
+        ArrayList<Integer> arr = new ArrayList<>();
+
         arr.add(9);
         arr.add(9);
-        arr.add(8);
-        arr.add(3);
         arr.add(9);
-        arr.add(8);
         arr.add(9);
-        System.out.print("Arr is: ");
-        System.out.print(arr);
-        System.out.print    ("\n");
-        int carry=1;
+        arr.add(9);
+
+        System.out.println("Original Array: " + arr);
+
+        int carry = 1;
+
         for (int i = arr.size() - 1; i >= 0; i--) {
 
             int sum = arr.get(i) + carry;
@@ -35,8 +38,5 @@ public class AddingOne22 {
         }
 
         System.out.println("After +1: " + arr);
-
-
-
     }
 }

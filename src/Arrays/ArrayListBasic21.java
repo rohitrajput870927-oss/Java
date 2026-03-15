@@ -26,6 +26,7 @@ public class ArrayListBasic21 {
         System.out.println(n);
 
         // arr without tranvers
+        System.out.println("With");
         System.out.print(arr);
         System.out.print("\n");
 
