@@ -27,7 +27,7 @@ public class BubbleSort1 {
 //        for (int i = 0; i < arr.length - 1; i++) {
 //            boolean isSorted = true;
 //            for (int k = 0; k < arr.length - 1; k++) {
-//                if (arr[k] > arr[k + 1]) {//check kerega har ke round ke bad ki kahi arr sort to nahi ho gaya hai
+//                if (arr[k] > arr[k + 1]) {//check kerega har ek round ke bad ki kahi arr sort to nahi ho gaya hai
 //                    isSorted = false;
 //                    break;//agar false ho gaya to ye break ho jayega bas k wala loop
 //                }
