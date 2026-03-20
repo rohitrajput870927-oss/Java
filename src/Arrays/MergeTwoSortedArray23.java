@@ -2,8 +2,8 @@ package Arrays;
 
 public class MergeTwoSortedArray23 {
     static void main() {
-        int[] a = {1,2, 3, 5, 6, 8, 9};
-        int[] b = {1, 4, 7, 10, 11, 12, 13, 14};
+        int[] a = {1,2,3,5,9,10};
+        int[] b = {2,4,6,7};
         int[] c=new int[a.length+b.length];
         System.out.println("Befor sort"+" ");
         for(int ele:c){
