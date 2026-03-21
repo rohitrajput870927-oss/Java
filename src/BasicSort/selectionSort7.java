@@ -2,7 +2,7 @@ package BasicSort;
 
 public class selectionSort7 {
     static void main() {
-        int[] arr={4,6,2,1,8,13,0};
+        int[] arr={3,5,1,4,0,8,2};
         for (int i = 0; i < arr.length; i++) {
             int min=arr[i],mindx=i;
             for (int j = i+1; j < arr.length; j++) {//i+1 ke ba wale sare element ko check karege
