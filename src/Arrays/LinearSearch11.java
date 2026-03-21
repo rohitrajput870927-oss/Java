@@ -29,7 +29,7 @@ public class LinearSearch11 {
             if (arr[i] == target) {
                 flag = true;
                 System.out.println(i);//for index
-                break; // stop when found
+//                 break;// stop when found tab lagayege jab hame dublicete element nahi chahiye agar isame break lagayege to 1,2,3,1 to 0 index wala hi print hoga
             }
         }
 
