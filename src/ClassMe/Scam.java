@@ -8,7 +8,7 @@ class Shape {
 }
 
 class Circle extends Shape {
-    voi6d circleArea() {
+    void circleArea() {
         System.out.println("Area of Circle");
     }
 }
